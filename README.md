@@ -8,7 +8,7 @@ Hardware: Arduino MEGA, AD9850 (DDS), AD8302 (Fázový detektor), ADS1115 (16-bi
 
 ### **Návod k obsluze** 
 Pro ovládání dálkoměru se využívá Sériový monitor v Arduino IDE. Je nutné nastavit komunikační rychlost na 115200 baudů.  
-Systém po spuštění zkontroluje přítomnost kalibračních dat v paměti EEPROM. Pokud jsou data nalezena, je dálkoměr okamžitě připraven k měření. V opačném případě vás systém vyzve k prvotní kalibraci. (kalibraci je vhodné provádět před každým měřením, kvůli změnám okolního prostředí)
+Systém po spuštění zkontroluje přítomnost kalibračních dat v paměti EEPROM. Pokud jsou data nalezena, je dálkoměr okamžitě připraven k měření. V opačném případě vás systém vyzve k prvotní kalibraci. Kalibraci je vhodné provádět před každým měřením, kvůli změnám okolního prostředí.
 
 Ovládání pomocí příkazů přes Sériový monitor:
 
