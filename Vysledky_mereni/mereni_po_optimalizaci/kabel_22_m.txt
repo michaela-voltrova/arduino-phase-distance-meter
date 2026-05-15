@@ -1,0 +1,584 @@
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 1.6758 V
+  -> Surová délka (datasheet) = 22.886
+  -> Odečten lokální HW ofset = -1.486
+  ===> FINÁLNÍ L_approx (KOTVA) = 21.400 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  -> Napětí = 0.5451 V | Fáze = 54.5°
+  ===> Zvolena surová délka [N=0, Svah A]: 24.814
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 23.127
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  -> Napětí = 0.8389 V | Fáze = 83.9°
+  ===> Zvolena surová délka [N=0, Svah B]: 23.568
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.657
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  -> Napětí = 0.4699 V | Fáze = 47.0°
+  ===> Zvolena surová délka [N=1, Svah A]: 23.160
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.843
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  -> Napětí = 1.7382 V | Fáze = 173.8°
+  ===> Zvolena surová délka [N=1, Svah B]: 23.310
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.583
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  -> Napětí = 0.2264 V | Fáze = 22.6°
+  ===> Zvolena surová délka [N=1, Svah B]: 23.810
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.715
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  -> Napětí = 1.6104 V | Fáze = 161.0°
+  ===> Zvolena surová délka [N=2, Svah B]: 25.101
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.727
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  -> Napětí = 0.2459 V | Fáze = 24.6°
+  ===> Zvolena surová délka [N=3, Svah A]: 25.143
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.812
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 3 frekvencí):
+   Použito: 21.657 m (8.0 MHz) | 21.727 m (25.0 MHz) | 21.812 m (30.0 MHz) | 
+
+========================================================
+KONEČNÁ PŘESNÁ DÉLKA KABELU: 21.7319 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 1.6758 V
+  -> Surová délka (datasheet) = 22.887
+  -> Odečten lokální HW ofset = -1.486
+  ===> FINÁLNÍ L_approx (KOTVA) = 21.401 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  -> Napětí = 0.5451 V | Fáze = 54.5°
+  ===> Zvolena surová délka [N=0, Svah A]: 24.816
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 23.129
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  -> Napětí = 0.8389 V | Fáze = 83.9°
+  ===> Zvolena surová délka [N=0, Svah B]: 23.568
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.656
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  -> Napětí = 0.4700 V | Fáze = 47.0°
+  ===> Zvolena surová délka [N=1, Svah A]: 23.160
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.843
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  -> Napětí = 1.7382 V | Fáze = 173.8°
+  ===> Zvolena surová délka [N=1, Svah B]: 23.310
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.583
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  -> Napětí = 0.2263 V | Fáze = 22.6°
+  ===> Zvolena surová délka [N=1, Svah B]: 23.810
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.715
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  -> Napětí = 1.6104 V | Fáze = 161.0°
+  ===> Zvolena surová délka [N=2, Svah B]: 25.101
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.727
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  -> Napětí = 0.2456 V | Fáze = 24.6°
+  ===> Zvolena surová délka [N=3, Svah A]: 25.142
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.811
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 3 frekvencí):
+   Použito: 21.656 m (8.0 MHz) | 21.727 m (25.0 MHz) | 21.811 m (30.0 MHz) | 
+
+========================================================
+KONEČNÁ PŘESNÁ DÉLKA KABELU: 21.7316 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 1.6758 V
+  -> Surová délka (datasheet) = 22.886
+  -> Odečten lokální HW ofset = -1.486
+  ===> FINÁLNÍ L_approx (KOTVA) = 21.400 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  -> Napětí = 0.5451 V | Fáze = 54.5°
+  ===> Zvolena surová délka [N=0, Svah A]: 24.816
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 23.129
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  -> Napětí = 0.8389 V | Fáze = 83.9°
+  ===> Zvolena surová délka [N=0, Svah B]: 23.568
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.657
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  -> Napětí = 0.4700 V | Fáze = 47.0°
+  ===> Zvolena surová délka [N=1, Svah A]: 23.160
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.843
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  -> Napětí = 1.7379 V | Fáze = 173.8°
+  ===> Zvolena surová délka [N=1, Svah B]: 23.312
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.584
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  -> Napětí = 0.2263 V | Fáze = 22.6°
+  ===> Zvolena surová délka [N=1, Svah B]: 23.810
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.715
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  -> Napětí = 1.6103 V | Fáze = 161.0°
+  ===> Zvolena surová délka [N=2, Svah B]: 25.101
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.728
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  -> Napětí = 0.2457 V | Fáze = 24.6°
+  ===> Zvolena surová délka [N=3, Svah A]: 25.142
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.811
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 3 frekvencí):
+   Použito: 21.657 m (8.0 MHz) | 21.728 m (25.0 MHz) | 21.811 m (30.0 MHz) | 
+
+========================================================
+KONEČNÁ PŘESNÁ DÉLKA KABELU: 21.7318 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 1.6756 V
+  -> Surová délka (datasheet) = 22.885
+  -> Odečten lokální HW ofset = -1.486
+  ===> FINÁLNÍ L_approx (KOTVA) = 21.398 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  -> Napětí = 0.5451 V | Fáze = 54.5°
+  ===> Zvolena surová délka [N=0, Svah A]: 24.816
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 23.128
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  -> Napětí = 0.8389 V | Fáze = 83.9°
+  ===> Zvolena surová délka [N=0, Svah B]: 23.568
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.657
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  -> Napětí = 0.4699 V | Fáze = 47.0°
+  ===> Zvolena surová délka [N=1, Svah A]: 23.160
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.843
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  -> Napětí = 1.7383 V | Fáze = 173.8°
+  ===> Zvolena surová délka [N=1, Svah B]: 23.310
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.582
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  -> Napětí = 0.2262 V | Fáze = 22.6°
+  ===> Zvolena surová délka [N=1, Svah B]: 23.811
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.715
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  -> Napětí = 1.6097 V | Fáze = 161.0°
+  ===> Zvolena surová délka [N=2, Svah B]: 25.103
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.729
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  -> Napětí = 0.2456 V | Fáze = 24.6°
+  ===> Zvolena surová délka [N=3, Svah A]: 25.142
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.811
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 3 frekvencí):
+   Použito: 21.657 m (8.0 MHz) | 21.729 m (25.0 MHz) | 21.811 m (30.0 MHz) | 
+
+========================================================
+KONEČNÁ PŘESNÁ DÉLKA KABELU: 21.7324 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 1.6756 V
+  -> Surová délka (datasheet) = 22.884
+  -> Odečten lokální HW ofset = -1.486
+  ===> FINÁLNÍ L_approx (KOTVA) = 21.398 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  -> Napětí = 0.5451 V | Fáze = 54.5°
+  ===> Zvolena surová délka [N=0, Svah A]: 24.817
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 23.129
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  -> Napětí = 0.8389 V | Fáze = 83.9°
+  ===> Zvolena surová délka [N=0, Svah B]: 23.568
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.657
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  -> Napětí = 0.4699 V | Fáze = 47.0°
+  ===> Zvolena surová délka [N=1, Svah A]: 23.160
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.843
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  -> Napětí = 1.7383 V | Fáze = 173.8°
+  ===> Zvolena surová délka [N=1, Svah B]: 23.310
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.582
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  -> Napětí = 0.2262 V | Fáze = 22.6°
+  ===> Zvolena surová délka [N=1, Svah B]: 23.811
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.715
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  -> Napětí = 1.6097 V | Fáze = 161.0°
+  ===> Zvolena surová délka [N=2, Svah B]: 25.103
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.729
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  -> Napětí = 0.2458 V | Fáze = 24.6°
+  ===> Zvolena surová délka [N=3, Svah A]: 25.142
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.811
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 3 frekvencí):
+   Použito: 21.657 m (8.0 MHz) | 21.729 m (25.0 MHz) | 21.811 m (30.0 MHz) | 
+
+========================================================
+KONEČNÁ PŘESNÁ DÉLKA KABELU: 21.7325 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 1.6757 V
+  -> Surová délka (datasheet) = 22.885
+  -> Odečten lokální HW ofset = -1.486
+  ===> FINÁLNÍ L_approx (KOTVA) = 21.399 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  -> Napětí = 0.5451 V | Fáze = 54.5°
+  ===> Zvolena surová délka [N=0, Svah A]: 24.816
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 23.129
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  -> Napětí = 0.8389 V | Fáze = 83.9°
+  ===> Zvolena surová délka [N=0, Svah B]: 23.568
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.657
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  -> Napětí = 0.4699 V | Fáze = 47.0°
+  ===> Zvolena surová délka [N=1, Svah A]: 23.160
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.843
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  -> Napětí = 1.7384 V | Fáze = 173.8°
+  ===> Zvolena surová délka [N=1, Svah B]: 23.310
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.582
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  -> Napětí = 0.2258 V | Fáze = 22.6°
+  ===> Zvolena surová délka [N=1, Svah B]: 23.812
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.716
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  -> Napětí = 1.6093 V | Fáze = 160.9°
+  ===> Zvolena surová délka [N=2, Svah B]: 25.104
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.730
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  -> Napětí = 0.2455 V | Fáze = 24.5°
+  ===> Zvolena surová délka [N=3, Svah A]: 25.142
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.811
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 3 frekvencí):
+   Použito: 21.657 m (8.0 MHz) | 21.730 m (25.0 MHz) | 21.811 m (30.0 MHz) | 
+
+========================================================
+KONEČNÁ PŘESNÁ DÉLKA KABELU: 21.7327 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 1.6757 V
+  -> Surová délka (datasheet) = 22.886
+  -> Odečten lokální HW ofset = -1.486
+  ===> FINÁLNÍ L_approx (KOTVA) = 21.400 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  -> Napětí = 0.5451 V | Fáze = 54.5°
+  ===> Zvolena surová délka [N=0, Svah A]: 24.815
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 23.128
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  -> Napětí = 0.8389 V | Fáze = 83.9°
+  ===> Zvolena surová délka [N=0, Svah B]: 23.568
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.657
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  -> Napětí = 0.4700 V | Fáze = 47.0°
+  ===> Zvolena surová délka [N=1, Svah A]: 23.160
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.843
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  -> Napětí = 1.7379 V | Fáze = 173.8°
+  ===> Zvolena surová délka [N=1, Svah B]: 23.312
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.584
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  -> Napětí = 0.2261 V | Fáze = 22.6°
+  ===> Zvolena surová délka [N=1, Svah B]: 23.811
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.716
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  -> Napětí = 1.6100 V | Fáze = 161.0°
+  ===> Zvolena surová délka [N=2, Svah B]: 25.102
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.728
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  -> Napětí = 0.2459 V | Fáze = 24.6°
+  ===> Zvolena surová délka [N=3, Svah A]: 25.143
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.812
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 3 frekvencí):
+   Použito: 21.657 m (8.0 MHz) | 21.728 m (25.0 MHz) | 21.812 m (30.0 MHz) | 
+
+========================================================
+KONEČNÁ PŘESNÁ DÉLKA KABELU: 21.7323 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 1.6756 V
+  -> Surová délka (datasheet) = 22.883
+  -> Odečten lokální HW ofset = -1.486
+  ===> FINÁLNÍ L_approx (KOTVA) = 21.397 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  -> Napětí = 0.5451 V | Fáze = 54.5°
+  ===> Zvolena surová délka [N=0, Svah A]: 24.816
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 23.128
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  -> Napětí = 0.8389 V | Fáze = 83.9°
+  ===> Zvolena surová délka [N=0, Svah B]: 23.568
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.657
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  -> Napětí = 0.4700 V | Fáze = 47.0°
+  ===> Zvolena surová délka [N=1, Svah A]: 23.160
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.843
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  -> Napětí = 1.7383 V | Fáze = 173.8°
+  ===> Zvolena surová délka [N=1, Svah B]: 23.310
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.582
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  -> Napětí = 0.2261 V | Fáze = 22.6°
+  ===> Zvolena surová délka [N=1, Svah B]: 23.811
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.716
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  -> Napětí = 1.6097 V | Fáze = 161.0°
+  ===> Zvolena surová délka [N=2, Svah B]: 25.103
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.729
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  -> Napětí = 0.2458 V | Fáze = 24.6°
+  ===> Zvolena surová délka [N=3, Svah A]: 25.143
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.812
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 3 frekvencí):
+   Použito: 21.657 m (8.0 MHz) | 21.729 m (25.0 MHz) | 21.812 m (30.0 MHz) | 
+
+========================================================
+KONEČNÁ PŘESNÁ DÉLKA KABELU: 21.7325 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 1.6757 V
+  -> Surová délka (datasheet) = 22.886
+  -> Odečten lokální HW ofset = -1.486
+  ===> FINÁLNÍ L_approx (KOTVA) = 21.399 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  -> Napětí = 0.5451 V | Fáze = 54.5°
+  ===> Zvolena surová délka [N=0, Svah A]: 24.816
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 23.129
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  -> Napětí = 0.8389 V | Fáze = 83.9°
+  ===> Zvolena surová délka [N=0, Svah B]: 23.568
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.657
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  -> Napětí = 0.4700 V | Fáze = 47.0°
+  ===> Zvolena surová délka [N=1, Svah A]: 23.160
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.843
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  -> Napětí = 1.7383 V | Fáze = 173.8°
+  ===> Zvolena surová délka [N=1, Svah B]: 23.310
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.583
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  -> Napětí = 0.2262 V | Fáze = 22.6°
+  ===> Zvolena surová délka [N=1, Svah B]: 23.811
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 20.715
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  -> Napětí = 1.6102 V | Fáze = 161.0°
+  ===> Zvolena surová délka [N=2, Svah B]: 25.101
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.728
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  -> Napětí = 0.2460 V | Fáze = 24.6°
+  ===> Zvolena surová délka [N=3, Svah A]: 25.143
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 21.812
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 3 frekvencí):
+   Použito: 21.657 m (8.0 MHz) | 21.728 m (25.0 MHz) | 21.812 m (30.0 MHz) | 
+
+========================================================
+KONEČNÁ PŘESNÁ DÉLKA KABELU: 21.7322 m
+========================================================
+
+Stiskni ENTER pro nové měření.
