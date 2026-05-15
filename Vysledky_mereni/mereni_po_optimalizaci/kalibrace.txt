@@ -1,0 +1,14 @@
+=== ZJIŠŤOVÁNÍ HW OFSETŮ PRO VŠECHNY FREKVENCE ===
+Připoj referenční kabel (0.20 m) a stiskni ENTER.
+Měřím napětí a odvozuji parazitní HW ofsety z datasheetových hodnot...
+[1.5 MHz] Napětí = 0.0415 V | Délka z datasheetu = 1.888 m | => HW OFSET = 1.688 m
+[5.0 MHz] Napětí = 0.1235 V | Délka z datasheetu = 1.686 m | => HW OFSET = 1.486 m
+[8.0 MHz] Napětí = 0.2474 V | Délka z datasheetu = 2.111 m | => HW OFSET = 1.911 m
+[12.0 MHz] Napětí = 0.4424 V | Délka z datasheetu = 2.517 m | => HW OFSET = 2.317 m
+[16.0 MHz] Napětí = 0.6859 V | Délka z datasheetu = 2.927 m | => HW OFSET = 2.727 m
+[20.0 MHz] Napětí = 0.9652 V | Délka z datasheetu = 3.296 m | => HW OFSET = 3.096 m
+[25.0 MHz] Napětí = 1.3083 V | Délka z datasheetu = 3.574 m | => HW OFSET = 3.374 m
+[30.0 MHz] Napětí = 1.5512 V | Délka z datasheetu = 3.531 m | => HW OFSET = 3.331 m
+
+🎉 Uloženo do EEPROM. Napiš 'MERENI'
+

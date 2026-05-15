@@ -1,0 +1,1584 @@
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1181 V
+  -> Surová délka (datasheet) = 1.613
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.202 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0458 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.085
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.176
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.5°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.201
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6626 V | Fáze = 66.3°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.828
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9274 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.167
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.201
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2436 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.201
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.9°
+  -> Napětí = 1.4787 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.366
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.176 m (1.5 MHz) | 0.202 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.201 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.201 m (20.0 MHz) | 0.201 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1977 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1180 V
+  -> Surová délka (datasheet) = 1.612
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.201 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0458 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.085
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.177
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.5°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.201
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6625 V | Fáze = 66.3°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.828
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9274 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.166
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.201
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2436 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.8°
+  -> Napětí = 1.4786 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.366
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.177 m (1.5 MHz) | 0.201 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.201 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.201 m (20.0 MHz) | 0.200 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1976 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1181 V
+  -> Surová délka (datasheet) = 1.612
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.202 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0458 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.084
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.175
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.5°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.201
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6625 V | Fáze = 66.3°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.828
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9274 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.167
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.201
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2436 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.201
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.9°
+  -> Napětí = 1.4786 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.366
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.175 m (1.5 MHz) | 0.202 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.201 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.201 m (20.0 MHz) | 0.201 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1974 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1181 V
+  -> Surová délka (datasheet) = 1.613
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.202 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0458 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.084
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.176
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.6°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.201
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6625 V | Fáze = 66.2°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.827
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9274 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.166
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2436 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.201
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.9°
+  -> Napětí = 1.4786 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.366
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.176 m (1.5 MHz) | 0.202 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.201 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.200 m (20.0 MHz) | 0.201 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1976 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1181 V
+  -> Surová délka (datasheet) = 1.612
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.202 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0458 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.086
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.178
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.5°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6625 V | Fáze = 66.3°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.828
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9274 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.166
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2436 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.201
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.9°
+  -> Napětí = 1.4786 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.366
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.178 m (1.5 MHz) | 0.202 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.200 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.200 m (20.0 MHz) | 0.201 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1977 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1180 V
+  -> Surová délka (datasheet) = 1.612
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.201 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0458 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.086
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.178
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.5°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6625 V | Fáze = 66.2°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.827
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9274 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.166
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2436 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.8°
+  -> Napětí = 1.4786 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.366
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.178 m (1.5 MHz) | 0.201 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.200 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.200 m (20.0 MHz) | 0.200 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1976 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1180 V
+  -> Surová délka (datasheet) = 1.612
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.201 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0458 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.084
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.176
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.5°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6625 V | Fáze = 66.2°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.827
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9274 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.166
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2436 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.201
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.8°
+  -> Napětí = 1.4786 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.366
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.176 m (1.5 MHz) | 0.201 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.200 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.200 m (20.0 MHz) | 0.201 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1973 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1180 V
+  -> Surová délka (datasheet) = 1.612
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.201 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0457 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.081
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.173
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.5°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6625 V | Fáze = 66.2°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.827
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9274 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.166
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2436 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.8°
+  -> Napětí = 1.4786 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.366
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.173 m (1.5 MHz) | 0.201 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.200 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.200 m (20.0 MHz) | 0.200 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1970 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1180 V
+  -> Surová délka (datasheet) = 1.612
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.201 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0457 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.079
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.171
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.5°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6625 V | Fáze = 66.2°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.827
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9274 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.166
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2436 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.8°
+  -> Napětí = 1.4787 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.366
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.171 m (1.5 MHz) | 0.201 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.200 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.200 m (20.0 MHz) | 0.200 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1968 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1181 V
+  -> Surová délka (datasheet) = 1.613
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.202 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0457 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.082
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.174
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.5°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6625 V | Fáze = 66.2°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.827
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9274 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.166
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2435 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.9°
+  -> Napětí = 1.4785 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.365
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.174 m (1.5 MHz) | 0.202 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.200 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.200 m (20.0 MHz) | 0.200 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1972 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1181 V
+  -> Surová délka (datasheet) = 1.612
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.202 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0458 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.084
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.176
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.5°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6625 V | Fáze = 66.2°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.827
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9274 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.166
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2436 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.9°
+  -> Napětí = 1.4786 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.366
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.176 m (1.5 MHz) | 0.202 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.200 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.200 m (20.0 MHz) | 0.200 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1974 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1181 V
+  -> Surová délka (datasheet) = 1.612
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.202 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0458 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.083
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.175
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.5°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6625 V | Fáze = 66.2°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.827
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9274 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.166
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2435 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.9°
+  -> Napětí = 1.4786 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.365
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.175 m (1.5 MHz) | 0.202 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.200 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.200 m (20.0 MHz) | 0.200 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1972 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1180 V
+  -> Surová délka (datasheet) = 1.612
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.201 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0457 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.081
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.173
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.5°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6625 V | Fáze = 66.2°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.827
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9274 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.166
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2435 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.8°
+  -> Napětí = 1.4786 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.366
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.173 m (1.5 MHz) | 0.201 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.200 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.200 m (20.0 MHz) | 0.200 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1969 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1181 V
+  -> Surová délka (datasheet) = 1.612
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.202 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0457 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.082
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.174
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.5°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6624 V | Fáze = 66.2°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.827
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9274 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.166
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2435 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.9°
+  -> Napětí = 1.4786 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.366
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.174 m (1.5 MHz) | 0.202 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.200 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.200 m (20.0 MHz) | 0.200 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1970 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1181 V
+  -> Surová délka (datasheet) = 1.613
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.202 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0458 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.083
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.175
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.6°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6625 V | Fáze = 66.2°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.827
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9273 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.166
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2435 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.9°
+  -> Napětí = 1.4786 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.366
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.175 m (1.5 MHz) | 0.202 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.200 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.200 m (20.0 MHz) | 0.200 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1973 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1181 V
+  -> Surová délka (datasheet) = 1.612
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.202 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0459 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.087
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.179
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.5°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6625 V | Fáze = 66.2°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.827
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9274 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.166
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2435 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.9°
+  -> Napětí = 1.4786 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.366
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.179 m (1.5 MHz) | 0.202 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.200 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.200 m (20.0 MHz) | 0.200 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1978 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1180 V
+  -> Surová délka (datasheet) = 1.612
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.201 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0456 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.078
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.170
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.5°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6625 V | Fáze = 66.2°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.827
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9274 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.166
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2436 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.8°
+  -> Napětí = 1.4786 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.366
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.170 m (1.5 MHz) | 0.201 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.200 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.200 m (20.0 MHz) | 0.200 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1966 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1180 V
+  -> Surová délka (datasheet) = 1.612
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.201 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0457 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.080
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.171
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.5°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6625 V | Fáze = 66.2°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.827
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9274 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.166
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2436 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.8°
+  -> Napětí = 1.4786 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.366
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.171 m (1.5 MHz) | 0.201 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.200 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.200 m (20.0 MHz) | 0.200 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1968 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1181 V
+  -> Surová délka (datasheet) = 1.612
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.202 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0457 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.079
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.171
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.5°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6625 V | Fáze = 66.2°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.827
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9274 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.166
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2435 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.9°
+  -> Napětí = 1.4786 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.366
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.171 m (1.5 MHz) | 0.202 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.200 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.200 m (20.0 MHz) | 0.200 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1967 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1180 V
+  -> Surová délka (datasheet) = 1.612
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.201 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0456 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.078
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.170
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.5°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6625 V | Fáze = 66.2°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.827
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9274 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.166
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2436 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.8°
+  -> Napětí = 1.4787 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.366
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.170 m (1.5 MHz) | 0.201 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.200 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.200 m (20.0 MHz) | 0.200 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1966 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1180 V
+  -> Surová délka (datasheet) = 1.612
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.201 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0456 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.077
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.169
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.5°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6625 V | Fáze = 66.2°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.827
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9274 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.166
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2436 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.201
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.8°
+  -> Napětí = 1.4787 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.366
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.169 m (1.5 MHz) | 0.201 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.200 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.200 m (20.0 MHz) | 0.201 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1965 m
+========================================================
+
+Stiskni ENTER pro nové měření.
+
+========================================================
+=== MĚŘENÍ: PEVNÁ KOTVA + LOKÁLNÍ HW OFSETY PŘÍVODŮ ===
+========================================================
+
+>>> KROK 1: MĚŘENÍ ABSOLUTNÍ START_KOTVY (5.0 MHz) <<<
+  -> Napětí = 0.1181 V
+  -> Surová délka (datasheet) = 1.612
+  -> Odečten lokální HW ofset = -1.411
+  ===> FINÁLNÍ L_approx (KOTVA) = 0.202 m
+
+>>> KROK 2: JEMNÉ MĚŘENÍ A HLEDÁNÍ NÁSOBKŮ <<<
+
+[1.5 MHz]
+  -> Bod zlomu (180°): 81.943 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 0.4°
+  -> Napětí = 0.0458 V | Fáze = 4.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.083
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.175
+
+[8.0 MHz]
+  -> Bod zlomu (180°): 15.364 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 2.4°
+  -> Napětí = 0.2364 V | Fáze = 23.6°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.018
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[12.0 MHz]
+  -> Bod zlomu (180°): 10.243 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 3.5°
+  -> Napětí = 0.4268 V | Fáze = 42.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.429
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[16.0 MHz]
+  -> Bod zlomu (180°): 7.682 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 4.7°
+  -> Napětí = 0.6625 V | Fáze = 66.2°
+  ===> Zvolena surová délka [N=0, Svah A]: 2.827
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[20.0 MHz]
+  -> Bod zlomu (180°): 6.146 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 5.9°
+  -> Napětí = 0.9274 V | Fáze = 92.7°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.166
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+[25.0 MHz]
+  -> Bod zlomu (180°): 4.917 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 7.4°
+  -> Napětí = 1.2436 V | Fáze = 124.4°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.397
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.201
+
+[30.0 MHz]
+  -> Bod zlomu (180°): 4.097 m
+  ⚠️ UPOZORNĚNÍ: Senzor je blízko slepé zóny (U/V ohyb). Predikce fáze: 8.9°
+  -> Napětí = 1.4787 V | Fáze = 147.9°
+  ===> Zvolena surová délka [N=0, Svah A]: 3.366
+  ===> ČISTÁ DÉLKA KABELU (surová - HW ofset z kalibrace): 0.200
+
+========================================================
+--- ZÁVĚREČNÁ STATISTIKA: ROBUSTNÍ SHLUKOVÁ ANALÝZA ---
+-> Nalezen vítězný shluk (shoda 8 frekvencí):
+   Použito: 0.175 m (1.5 MHz) | 0.202 m (5.0 MHz) | 0.200 m (8.0 MHz) | 0.200 m (12.0 MHz) | 0.200 m (16.0 MHz) | 0.200 m (20.0 MHz) | 0.201 m (25.0 MHz) | 0.200 m (30.0 MHz) | 
+
+========================================================
+✅ KONEČNÁ PŘESNÁ DÉLKA KABELU: 0.1973 m
+========================================================
+
+Stiskni ENTER pro nové měření.
