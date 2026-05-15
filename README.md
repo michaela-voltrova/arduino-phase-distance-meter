@@ -21,7 +21,7 @@ Tento příkaz spustí sekvenci pro zjištění hardwarových ofsetů měřicíh
 Příkaz pro spuštění hlavního měřicího algoritmu. Systém nejprve změří absolutní vzdálenost pomocí kotevní frekvence 5 MHz a následně pomocí rozbalování fáze dohledá přesnou délku. Výsledek je spřesněn robustní shlukovou analýzou (s tolerancí 15 cm) pro eliminaci chyb a odrazů. Na výstupu Sériového monitoru se následně zobrazí finální přesná délka připojeného kabelu.
 
 ## Vysledky_mereni - Výsledky měření
-Tato složka obsahuje složku s naměřenými daty před optimalizací, a složku a naměřenými daty po optimalizaci systému 
+Tato složka obsahuje složku s naměřenými daty před optimalizací a složku s naměřenými daty po optimalizaci systému.
 ### **mereni_pred_optimalizaci** 
 1 × kalibrace.txt
 
